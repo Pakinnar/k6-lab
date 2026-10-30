@@ -11,3 +11,5 @@
 - Step 0.7, passed rules: p(95)<1000, p(99)<1500, checks>0.99, http_req_failed<0.01
 - Step 0.7, measured p(95): 382.12 ms, p(99): 398.21 ms
 - Step 0.7, changed p(95) limit to 1 ms; threshold failed, exit code: 99
+- Step 0.8, bug: ใช้ชื่อ pepperoni และ knife ตัวพิมพ์เล็ก แต่ API ต้องการ Pepperoni และ Knife แบบตัวพิมพ์ใหญ่ จึงไม่ถูกตัดออก
+- Step 0.8, หลังแก้ไขแล้ว checks ทั้งหมดผ่าน
