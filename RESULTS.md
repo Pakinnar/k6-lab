@@ -8,3 +8,6 @@
 - Step 0.5, request without token: passed, status 401, p(95): 260.04 ms
 - Step 0.6, normal run: p(95) 374.3 ms, exit code 0
 - Step 0.6, run with P95=300: threshold failed, exit code 99
+- Step 0.7, passed rules: p(95)<1000, p(99)<1500, checks>0.99, http_req_failed<0.01
+- Step 0.7, measured p(95): 382.12 ms, p(99): 398.21 ms
+- Step 0.7, changed p(95) limit to 1 ms; threshold failed, exit code: 99
