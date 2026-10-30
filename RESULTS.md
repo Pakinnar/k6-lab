@@ -13,3 +13,5 @@
 - Step 0.7, changed p(95) limit to 1 ms; threshold failed, exit code: 99
 - Step 0.8, bug: ใช้ชื่อ pepperoni และ knife ตัวพิมพ์เล็ก แต่ API ต้องการ Pepperoni และ Knife แบบตัวพิมพ์ใหญ่ จึงไม่ถูกตัดออก
 - Step 0.8, หลังแก้ไขแล้ว checks ทั้งหมดผ่าน
+
+| A1 | Smoke | 1 | 0.524518/s | 368.99 ms | 377.49 ms | 0% | 100% |
